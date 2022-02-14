@@ -1,0 +1,25 @@
+/control/verbose 0
+/run/verbose 0
+/vis/verbose 0
+/tracking/verbose 0
+
+/run/numberOfThreads 4
+
+/process/optical/processActivation Cerenkov True
+/process/optical/processActivation OpAbsorption True
+/process/optical/processActivation OpRayleigh True
+/process/optical/processActivation OpMieHG False
+/process/optical/processActivation Cerenkov True
+/process/optical/cerenkov/setStackPhotons True
+
+/process/em/verbose 0
+
+/run/initialize
+
+/gun/particle mu-
+/gun/energy 1 GeV
+/gun/direction 0 0 1
+/gun/position 0 0 40 m
+
+/run/printProgress 1
+/run/beamOn 1

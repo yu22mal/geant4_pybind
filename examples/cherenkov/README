@@ -1,0 +1,11 @@
+This example illustrates simulation of Cherenkov photons emission. Muons are propageted in water with Cherenkov light emission.
+
+Basic usage:
+
+$ python3 opCherenkov.py
+
+and then '/run/beamOn 1'
+
+or in batch mode:
+
+$ python3 opCherenkov.py runMuon.mac
